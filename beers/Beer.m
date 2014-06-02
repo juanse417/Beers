@@ -15,7 +15,7 @@
     
     NSLog(@"Name: %@\n", name);
     NSLog(@"Color: %@\n", color);
-    NSLog(@"Alcohol: %d\n", alcohol);
+    NSLog(@"Alcohol: %d\n", grade);
 }
 
 //void printBerrInfo(String header)
