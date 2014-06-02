@@ -19,6 +19,7 @@
 		B7E4787F193CD00D0041C0AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E47867193CD00D0041C0AA /* UIKit.framework */; };
 		B7E47887193CD00D0041C0AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7E47885193CD00D0041C0AA /* InfoPlist.strings */; };
 		B7E47889193CD00D0041C0AA /* beersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E47888193CD00D0041C0AA /* beersTests.m */; };
+		B7E47894193CD2100041C0AA /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E47893193CD2100041C0AA /* Beer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		B7E47884193CD00D0041C0AA /* beersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "beersTests-Info.plist"; sourceTree = "<group>"; };
 		B7E47886193CD00D0041C0AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7E47888193CD00D0041C0AA /* beersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beersTests.m; sourceTree = "<group>"; };
+		B7E47892193CD2100041C0AA /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
+		B7E47893193CD2100041C0AA /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				B7E47872193CD00D0041C0AA /* AppDelegate.h */,
 				B7E47873193CD00D0041C0AA /* AppDelegate.m */,
+				B7E47892193CD2100041C0AA /* Beer.h */,
+				B7E47893193CD2100041C0AA /* Beer.m */,
 				B7E47875193CD00D0041C0AA /* Images.xcassets */,
 				B7E4786A193CD00D0041C0AA /* Supporting Files */,
 			);
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E47894193CD2100041C0AA /* Beer.m in Sources */,
 				B7E47874193CD00D0041C0AA /* AppDelegate.m in Sources */,
 				B7E47870193CD00D0041C0AA /* main.m in Sources */,
 			);
