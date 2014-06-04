@@ -10,12 +10,62 @@
 
 @implementation Beer
 
+@synthesize country = _country;
+
+-(void) setCountry:(NSString *)country {
+    
+    self->_country=country;
+}
+
+- (NSString *)country {
+    
+    return _country;
+}
+
+
+-(NSString *)name{
+    
+    return self->name;
+    
+}
+-(void)setName:(NSString *) newName{
+    
+    self->name=newName;
+    
+}
+
+
+-(NSString *)color{
+    
+    return self->color;
+}
+-(void)setColor:(NSString *) newColor{
+    
+    self->color=newColor;
+
+}
+
+
+-(NSUInteger)grade{
+    
+    return self->grade;
+
+}
+-(void)setGrade:(NSUInteger) newGrade{
+    
+    self->grade=newGrade;
+
+}
+
+
+
+
 //void printBeerInfo()
 - (void)printBeerInfo{
     
     NSLog(@"Name: %@\n", name);
     NSLog(@"Color: %@\n", color);
-    NSLog(@"Alcohol: %d\n", grade);
+    NSLog(@"Alcohol: %lu\n", (unsigned long)grade);
 }
 
 //void printBerrInfo(String header)
@@ -35,5 +85,7 @@
 //void printBeerInfo(String header, String footer, int numberOfEmojis)
 -(void) printBeerInfoWithHeader:(NSString *)header andFooter:(NSString *)footer andNumberOfEmojis:(NSUInteger) numberOfEmojis{
 }
+
+
 
 @end

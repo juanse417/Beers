@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B795D174193DC37C00DE377F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B795D173193DC37C00DE377F /* Person.m */; };
+		B795D178193DE8FD00DE377F /* EuroConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = B795D177193DE8FD00DE377F /* EuroConverter.m */; };
+		B795D17A193E047B00DE377F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B795D179193E047B00DE377F /* Storyboard.storyboard */; };
+		B795D180193E0B8800DE377F /* EuroCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B795D17F193E0B8800DE377F /* EuroCalculatorViewController.m */; };
+		B795D183193E0CAB00DE377F /* EuroConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B795D182193E0CAB00DE377F /* EuroConverterViewController.m */; };
+		B795D186193E260200DE377F /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B795D185193E260200DE377F /* AlphaViewController.m */; };
+		B795D188193E297800DE377F /* Ferrari-612-GTO-030.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B795D187193E297800DE377F /* Ferrari-612-GTO-030.jpg */; };
+		B795D18A193E2BFA00DE377F /* mini_cooper_s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B795D189193E2BFA00DE377F /* mini_cooper_s.jpg */; };
 		B7E47864193CD00D0041C0AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E47863193CD00D0041C0AA /* Foundation.framework */; };
 		B7E47866193CD00D0041C0AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E47865193CD00D0041C0AA /* CoreGraphics.framework */; };
 		B7E47868193CD00D0041C0AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E47867193CD00D0041C0AA /* UIKit.framework */; };
@@ -33,6 +41,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B795D172193DC37C00DE377F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B795D173193DC37C00DE377F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B795D176193DE8FD00DE377F /* EuroConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverter.h; sourceTree = "<group>"; };
+		B795D177193DE8FD00DE377F /* EuroConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverter.m; sourceTree = "<group>"; };
+		B795D179193E047B00DE377F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		B795D17E193E0B8800DE377F /* EuroCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroCalculatorViewController.h; sourceTree = "<group>"; };
+		B795D17F193E0B8800DE377F /* EuroCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroCalculatorViewController.m; sourceTree = "<group>"; };
+		B795D181193E0CAB00DE377F /* EuroConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverterViewController.h; sourceTree = "<group>"; };
+		B795D182193E0CAB00DE377F /* EuroConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EuroConverterViewController.m; sourceTree = "<group>"; };
+		B795D184193E260200DE377F /* AlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
+		B795D185193E260200DE377F /* AlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
+		B795D187193E297800DE377F /* Ferrari-612-GTO-030.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari-612-GTO-030.jpg"; sourceTree = "<group>"; };
+		B795D189193E2BFA00DE377F /* mini_cooper_s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mini_cooper_s.jpg; sourceTree = "<group>"; };
 		B7E47860193CD00D0041C0AA /* beers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E47863193CD00D0041C0AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B7E47865193CD00D0041C0AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +98,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B795D175193DC48900DE377F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7E47892193CD2100041C0AA /* Beer.h */,
+				B7E47893193CD2100041C0AA /* Beer.m */,
+				B795D172193DC37C00DE377F /* Person.h */,
+				B795D173193DC37C00DE377F /* Person.m */,
+				B795D176193DE8FD00DE377F /* EuroConverter.h */,
+				B795D177193DE8FD00DE377F /* EuroConverter.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B795D17B193E08B600DE377F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B795D179193E047B00DE377F /* Storyboard.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B795D17D193E08E400DE377F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B795D17E193E0B8800DE377F /* EuroCalculatorViewController.h */,
+				B795D17F193E0B8800DE377F /* EuroCalculatorViewController.m */,
+				B795D181193E0CAB00DE377F /* EuroConverterViewController.h */,
+				B795D182193E0CAB00DE377F /* EuroConverterViewController.m */,
+				B795D184193E260200DE377F /* AlphaViewController.h */,
+				B795D185193E260200DE377F /* AlphaViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B7DFADE1193F037100EF7886 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B795D189193E2BFA00DE377F /* mini_cooper_s.jpg */,
+				B795D187193E297800DE377F /* Ferrari-612-GTO-030.jpg */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		B7E47857193CD00D0041C0AA = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +176,10 @@
 			children = (
 				B7E47872193CD00D0041C0AA /* AppDelegate.h */,
 				B7E47873193CD00D0041C0AA /* AppDelegate.m */,
-				B7E47892193CD2100041C0AA /* Beer.h */,
-				B7E47893193CD2100041C0AA /* Beer.m */,
+				B7DFADE1193F037100EF7886 /* Assets */,
+				B795D175193DC48900DE377F /* Model */,
+				B795D17D193E08E400DE377F /* Controller */,
+				B795D17B193E08B600DE377F /* View */,
 				B7E47875193CD00D0041C0AA /* Images.xcassets */,
 				B7E4786A193CD00D0041C0AA /* Supporting Files */,
 			);
@@ -225,7 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7E4786E193CD00D0041C0AA /* InfoPlist.strings in Resources */,
+				B795D18A193E2BFA00DE377F /* mini_cooper_s.jpg in Resources */,
 				B7E47876193CD00D0041C0AA /* Images.xcassets in Resources */,
+				B795D188193E297800DE377F /* Ferrari-612-GTO-030.jpg in Resources */,
+				B795D17A193E047B00DE377F /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +314,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7E47894193CD2100041C0AA /* Beer.m in Sources */,
+				B795D180193E0B8800DE377F /* EuroCalculatorViewController.m in Sources */,
+				B795D183193E0CAB00DE377F /* EuroConverterViewController.m in Sources */,
 				B7E47874193CD00D0041C0AA /* AppDelegate.m in Sources */,
+				B795D174193DC37C00DE377F /* Person.m in Sources */,
+				B795D186193E260200DE377F /* AlphaViewController.m in Sources */,
+				B795D178193DE8FD00DE377F /* EuroConverter.m in Sources */,
 				B7E47870193CD00D0041C0AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +517,7 @@
 				B7E4788E193CD00D0041C0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7E4788F193CD00D0041C0AA /* Build configuration list for PBXNativeTarget "beersTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +526,7 @@
 				B7E47891193CD00D0041C0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -11,12 +11,32 @@
 @interface Beer : NSObject{
 
     //iVars
-    
+    @private
     NSString *name;
     NSString *color;
     NSUInteger grade;
     
+    
 }
+
+//geters y setters
+
+-(NSString *)name;
+-(void)setName:(NSString *) newName;
+
+
+-(NSString *)color;
+-(void)setColor:(NSString *) newColor;
+
+
+-(NSUInteger)grade;
+-(void)setGrade:(NSUInteger) newGrade;
+
+@property (nonatomic, strong) NSString *country;
+
+
+
+
 //void printBeerInfo()
 - (void)printBeerInfo;
 //void printBerrInfo(String header)
