@@ -16,6 +16,7 @@
 		B7BC31361940600A00E3271C /* BeerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BC31351940600A00E3271C /* BeerListViewController.m */; };
 		B7BC3139194078E200E3271C /* PersonList.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BC3138194078E200E3271C /* PersonList.m */; };
 		B7BC313B194079ED00E3271C /* PersonListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BC313A194079ED00E3271C /* PersonListTests.m */; };
+		B7BC313D1940897E00E3271C /* beer_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7BC313C1940897E00E3271C /* beer_list.plist */; };
 		B7DFADE2193F158E00EF7886 /* mini_cooper_s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B795D189193E2BFA00DE377F /* mini_cooper_s.jpg */; };
 		B7DFADE3193F158E00EF7886 /* Ferrari-612-GTO-030.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B795D187193E297800DE377F /* Ferrari-612-GTO-030.jpg */; };
 		B7DFADE5193F262000EF7886 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DFADE4193F262000EF7886 /* PersonTests.m */; };
@@ -67,6 +68,7 @@
 		B7BC3137194078E200E3271C /* PersonList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonList.h; sourceTree = "<group>"; };
 		B7BC3138194078E200E3271C /* PersonList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonList.m; sourceTree = "<group>"; };
 		B7BC313A194079ED00E3271C /* PersonListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonListTests.m; path = "Supporting Files/PersonListTests.m"; sourceTree = "<group>"; };
+		B7BC313C1940897E00E3271C /* beer_list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = beer_list.plist; sourceTree = "<group>"; };
 		B7DFADE4193F262000EF7886 /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
 		B7DFADE6193F34F100EF7886 /* BeerListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListTests.m; sourceTree = "<group>"; };
 		B7DFADE8193F35DC00EF7886 /* BeerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerList.h; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				B7DFADEC193F7D8700EF7886 /* Hotel.m */,
 				B7BC3137194078E200E3271C /* PersonList.h */,
 				B7BC3138194078E200E3271C /* PersonList.m */,
+				B7BC313C1940897E00E3271C /* beer_list.plist */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				B7DFADE3193F158E00EF7886 /* Ferrari-612-GTO-030.jpg in Resources */,
 				B7E4786E193CD00D0041C0AA /* InfoPlist.strings in Resources */,
 				B7E47876193CD00D0041C0AA /* Images.xcassets in Resources */,
+				B7BC313D1940897E00E3271C /* beer_list.plist in Resources */,
 				B795D17A193E047B00DE377F /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

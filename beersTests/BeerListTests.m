@@ -222,6 +222,22 @@
     
 }
 
+-(void)testCanCreateBeerListWithFile {
+
+    BeerList *beer = [[BeerList alloc] initWithFile:@"beer_list"];
+    
+    XCTAssertNotNil(beer, @"");
+    
+    XCTAssertTrue([beer count]>0, @"");
+    
+    for(Beer *b in [beer allBeers])
+    {
+        XCTAssertTrue([b isKindOfClass:[Beer class]], @"");
+        XCTAssertNotNil(b.name, @"");
+    }
+
+}
+
 
 
 @end

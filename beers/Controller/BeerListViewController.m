@@ -38,15 +38,23 @@
 -(BeerList *)beerList {
 
     if(!_beerList ) {
-    
-        _beerList = [[BeerList alloc] init];
+        
+        
+        //manual way to create a list
+        /*_beerList = [[BeerList alloc] init];
         for(int i=0; i<100;i++)
         {
             Beer *b = [[Beer alloc] init];
             b.name= [NSString stringWithFormat:@"🍻 Cerveza %d",i];
             [_beerList addBeer:b];
         
-        }
+        }*/
+        
+        //Using plist
+        
+        _beerList = [[BeerList alloc] initWithFile:@"beer_list"];
+        
+        
     }
     return _beerList;
 

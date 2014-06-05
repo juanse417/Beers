@@ -21,4 +21,5 @@
 
 -(NSArray *) allBeers;
 
+-(id)initWithFile:(NSString *)fileName;
 @end

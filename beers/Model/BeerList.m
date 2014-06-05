@@ -53,4 +53,32 @@
     return self.theList;
 }
 
+
+
+-(id)initWithFile:(NSString *)fileName {
+
+    if(self = [self init])
+    {
+        NSString *fileNameAndPath = [[NSBundle mainBundle] pathForResource:fileName ofType:@"plist"];
+        NSArray *array = [NSArray arrayWithContentsOfFile:fileNameAndPath];
+        
+        for(NSDictionary *dict in array)
+        {
+            Beer *beer = [[Beer alloc] init];
+            
+            beer.name= [dict objectForKey:@"name"];
+            beer.grade= (NSUInteger)[dict objectForKey:@"grade"];
+            beer.country = [dict objectForKey:@"country"];
+            beer.color = [dict objectForKey:@"color"];
+            
+        
+            
+            
+            [_theList addObject:beer];
+        }
+    }
+    
+    return self;
+}
+
 @end
