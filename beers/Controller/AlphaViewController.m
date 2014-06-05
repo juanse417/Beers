@@ -58,4 +58,10 @@
     self.imageViewer.image = downImage;
 }
 
+
+
+
+
+
+
 @end

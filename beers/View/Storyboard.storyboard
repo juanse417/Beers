@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="5It-a2-Ymu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="eHa-S7-QxD">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -264,6 +264,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oib-v3-ex4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="245" y="1432"/>
+        </scene>
+        <!--Beer List View Controller-->
+        <scene sceneID="9fz-Pb-9Nx">
+            <objects>
+                <viewController id="eHa-S7-QxD" customClass="BeerListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O0O-nM-5YZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="fTH-tn-ZcF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ASd-Do-rDh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cQk-12-ZJt">
+                                <rect key="frame" x="0.0" y="41" width="320" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="eHa-S7-QxD" id="kwy-fL-PKe"/>
+                                    <outlet property="delegate" destination="eHa-S7-QxD" id="5or-VU-zaH"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="beersPicker" destination="cQk-12-ZJt" id="KLc-Y5-hFw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tTD-qr-n8a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="2094"/>
         </scene>
     </scenes>
     <resources>

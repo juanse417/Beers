@@ -24,13 +24,13 @@
         _rooms = [[NSMutableDictionary alloc] init];
     }
     return self;
-}
+} es mejr crear las cosas cunado realmente se necesitan */ 
 
 -(void)addPerson:(Person *)p toRoom:(NSString *)room {
 
     [self.rooms setObject:p forKey:room];
     
-}    es mejr crear las cosas cunado realmente se necesitan*/
+}
 
 -(NSMutableDictionary *)rooms {
 
