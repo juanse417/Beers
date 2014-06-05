@@ -17,6 +17,17 @@
 		B7BC3139194078E200E3271C /* PersonList.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BC3138194078E200E3271C /* PersonList.m */; };
 		B7BC313B194079ED00E3271C /* PersonListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BC313A194079ED00E3271C /* PersonListTests.m */; };
 		B7BC313D1940897E00E3271C /* beer_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7BC313C1940897E00E3271C /* beer_list.plist */; };
+		B7BC31BA1940C1F000E3271C /* 22-skull-n-bones.png in Resources */ = {isa = PBXBuildFile; fileRef = B7BC31B91940C1F000E3271C /* 22-skull-n-bones.png */; };
+		B7BC31C41940C20400E3271C /* 23-bird.png in Resources */ = {isa = PBXBuildFile; fileRef = B7BC31BB1940C20400E3271C /* 23-bird.png */; };
+		B7BC31C51940C20400E3271C /* 24-gift.png in Resources */ = {isa = PBXBuildFile; fileRef = B7BC31BC1940C20400E3271C /* 24-gift.png */; };
+		B7BC31C61940C20400E3271C /* 25-weather.png in Resources */ = {isa = PBXBuildFile; fileRef = B7BC31BD1940C20400E3271C /* 25-weather.png */; };
+		B7BC31C71940C20400E3271C /* 26-bandaid.png in Resources */ = {isa = PBXBuildFile; fileRef = B7BC31BE1940C20400E3271C /* 26-bandaid.png */; };
+		B7BC31C81940C20400E3271C /* 27-planet.png in Resources */ = {isa = PBXBuildFile; fileRef = B7BC31BF1940C20400E3271C /* 27-planet.png */; };
+		B7BC31C91940C20400E3271C /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = B7BC31C01940C20400E3271C /* 28-star.png */; };
+		B7BC31CA1940C20400E3271C /* 29-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = B7BC31C11940C20400E3271C /* 29-heart.png */; };
+		B7BC31CB1940C20400E3271C /* 30-key.png in Resources */ = {isa = PBXBuildFile; fileRef = B7BC31C21940C20400E3271C /* 30-key.png */; };
+		B7BC31CC1940C20400E3271C /* 31-ipod.png in Resources */ = {isa = PBXBuildFile; fileRef = B7BC31C31940C20400E3271C /* 31-ipod.png */; };
+		B7BC31CE1940D00500E3271C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BC31CD1940D00500E3271C /* MapKit.framework */; };
 		B7DFADE2193F158E00EF7886 /* mini_cooper_s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B795D189193E2BFA00DE377F /* mini_cooper_s.jpg */; };
 		B7DFADE3193F158E00EF7886 /* Ferrari-612-GTO-030.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B795D187193E297800DE377F /* Ferrari-612-GTO-030.jpg */; };
 		B7DFADE5193F262000EF7886 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DFADE4193F262000EF7886 /* PersonTests.m */; };
@@ -69,6 +80,17 @@
 		B7BC3138194078E200E3271C /* PersonList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonList.m; sourceTree = "<group>"; };
 		B7BC313A194079ED00E3271C /* PersonListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonListTests.m; path = "Supporting Files/PersonListTests.m"; sourceTree = "<group>"; };
 		B7BC313C1940897E00E3271C /* beer_list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = beer_list.plist; sourceTree = "<group>"; };
+		B7BC31B91940C1F000E3271C /* 22-skull-n-bones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "22-skull-n-bones.png"; sourceTree = "<group>"; };
+		B7BC31BB1940C20400E3271C /* 23-bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "23-bird.png"; sourceTree = "<group>"; };
+		B7BC31BC1940C20400E3271C /* 24-gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24-gift.png"; sourceTree = "<group>"; };
+		B7BC31BD1940C20400E3271C /* 25-weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "25-weather.png"; sourceTree = "<group>"; };
+		B7BC31BE1940C20400E3271C /* 26-bandaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26-bandaid.png"; sourceTree = "<group>"; };
+		B7BC31BF1940C20400E3271C /* 27-planet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "27-planet.png"; sourceTree = "<group>"; };
+		B7BC31C01940C20400E3271C /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
+		B7BC31C11940C20400E3271C /* 29-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29-heart.png"; sourceTree = "<group>"; };
+		B7BC31C21940C20400E3271C /* 30-key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "30-key.png"; sourceTree = "<group>"; };
+		B7BC31C31940C20400E3271C /* 31-ipod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "31-ipod.png"; sourceTree = "<group>"; };
+		B7BC31CD1940D00500E3271C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B7DFADE4193F262000EF7886 /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
 		B7DFADE6193F34F100EF7886 /* BeerListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListTests.m; sourceTree = "<group>"; };
 		B7DFADE8193F35DC00EF7886 /* BeerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerList.h; sourceTree = "<group>"; };
@@ -100,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7BC31CE1940D00500E3271C /* MapKit.framework in Frameworks */,
 				B7E47866193CD00D0041C0AA /* CoreGraphics.framework in Frameworks */,
 				B7E47868193CD00D0041C0AA /* UIKit.framework in Frameworks */,
 				B7E47864193CD00D0041C0AA /* Foundation.framework in Frameworks */,
@@ -165,6 +188,16 @@
 		B7DFADE1193F037100EF7886 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				B7BC31B91940C1F000E3271C /* 22-skull-n-bones.png */,
+				B7BC31BB1940C20400E3271C /* 23-bird.png */,
+				B7BC31BC1940C20400E3271C /* 24-gift.png */,
+				B7BC31BD1940C20400E3271C /* 25-weather.png */,
+				B7BC31BE1940C20400E3271C /* 26-bandaid.png */,
+				B7BC31BF1940C20400E3271C /* 27-planet.png */,
+				B7BC31C01940C20400E3271C /* 28-star.png */,
+				B7BC31C11940C20400E3271C /* 29-heart.png */,
+				B7BC31C21940C20400E3271C /* 30-key.png */,
+				B7BC31C31940C20400E3271C /* 31-ipod.png */,
 				B795D189193E2BFA00DE377F /* mini_cooper_s.jpg */,
 				B795D187193E297800DE377F /* Ferrari-612-GTO-030.jpg */,
 			);
@@ -194,6 +227,7 @@
 		B7E47862193CD00D0041C0AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B7BC31CD1940D00500E3271C /* MapKit.framework */,
 				B7E47863193CD00D0041C0AA /* Foundation.framework */,
 				B7E47865193CD00D0041C0AA /* CoreGraphics.framework */,
 				B7E47867193CD00D0041C0AA /* UIKit.framework */,
@@ -324,11 +358,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7BC31C51940C20400E3271C /* 24-gift.png in Resources */,
 				B7DFADE2193F158E00EF7886 /* mini_cooper_s.jpg in Resources */,
+				B7BC31CB1940C20400E3271C /* 30-key.png in Resources */,
+				B7BC31C41940C20400E3271C /* 23-bird.png in Resources */,
 				B7DFADE3193F158E00EF7886 /* Ferrari-612-GTO-030.jpg in Resources */,
 				B7E4786E193CD00D0041C0AA /* InfoPlist.strings in Resources */,
+				B7BC31C61940C20400E3271C /* 25-weather.png in Resources */,
+				B7BC31BA1940C1F000E3271C /* 22-skull-n-bones.png in Resources */,
 				B7E47876193CD00D0041C0AA /* Images.xcassets in Resources */,
 				B7BC313D1940897E00E3271C /* beer_list.plist in Resources */,
+				B7BC31C71940C20400E3271C /* 26-bandaid.png in Resources */,
+				B7BC31CC1940C20400E3271C /* 31-ipod.png in Resources */,
+				B7BC31C91940C20400E3271C /* 28-star.png in Resources */,
+				B7BC31CA1940C20400E3271C /* 29-heart.png in Resources */,
+				B7BC31C81940C20400E3271C /* 27-planet.png in Resources */,
 				B795D17A193E047B00DE377F /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
